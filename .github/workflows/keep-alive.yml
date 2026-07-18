@@ -3,7 +3,7 @@ name: Keep Alive
 on:
   schedule:
     # 每个月 1 号凌晨 0 点运行
-    - cron: '0 0 1 * *'
+    - cron: '0 7 1 * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
